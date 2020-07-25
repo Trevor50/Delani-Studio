@@ -3,7 +3,7 @@ html{
   scroll-behavior: smooth;
 }
 .landing{
-  background
+  background-image: url(assets/backgrounds/c_image.jpg)
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
