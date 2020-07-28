@@ -47,28 +47,20 @@
     font-family: 'Gabriela', serif;
     
   } 
+  
   .what-we-do{
     font-family: 'Quattrocento', serif;
     color:black;
     text-align: center;
     padding-top: 40px;
     font-family: 'Gabriela', serif;
+    float: inline-start;
     
   }
-  .what-we-do .headings{
-    color: black;
-    padding-bottom: 38px;
-  }
-  #whatwedo{
-    display: inline;
-  }
-  #portfolio{
+  .one{
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    margin-left:18%;
-    margin-right: 16%; 
   }
+ 
   .col-md-3 img{
     max-width: 100%;
     max-height: 100%;
@@ -78,25 +70,27 @@
     padding-top:40px;
     font-family: 'Gabriela', serif;
   }
-  .col1 {
+  #portfolio-fig{
+    margin-top: 20px;
+  }
+  .text{
+    margin: 0px 10px;
+    margin-top: -6em;
+  }
+  .portfolio-row1, .portfolio-row2 {
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    margin-left: 5%;
+  }
+  .portfolio-row2 {
+    margin-top: 50px;
+    margin-bottom: 70px;
+  }
+  .portfolio-img {
+    height: 150px;
+    width: 190px;
+  }
 
-  }
-  .col1 img{
-    width: 80%;
-    padding: 1%;
-  }
-  .col2{
-    display: flex;
-    justify-content: center;
-    margin-left: 5% ;
-  }
-  .col2 img{
-    width: 80%;
-    padding: 1%;
-  }
   .contact{
     background-image: url(assets/backgrounds/c_image.jpg);
     background-position: center center;
@@ -124,12 +118,13 @@
   }
   input[type=text],input[type=email],#comment{
     background: transparent;
-    color: white;
+    color: black;
     font-size: 20px;
     font-family: 'Copse', serif;
   }
   #social {
     padding-top: 40px;
+    align-content: center;
 }
 
 #social-padding img {
@@ -205,6 +200,13 @@
     margin-left:6%;
     margin-right: 10%; 
   }
+#form34A{
+  align-content: center;
+  margin-left: 300px;
+  color: white;
+
 }
-  
-  
+}
+h5{
+  color: black
+};
