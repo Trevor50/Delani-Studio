@@ -19,6 +19,12 @@
 * CSS
 * Bootstrap
 * jQuery
+# BBD
+Behaviour	Input	Output
+Enter your name	TREVOR
+Enter your Email Address   trevornyagah4@gmail.com	
+Enter your message or comment   i love your work	
+Press Submit		Pop up "Trevor , we have received your message. Thank you for reaching out to us.
 ## Know Bugs
 * No know bugs
 # Contact info
