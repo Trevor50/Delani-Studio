@@ -21,7 +21,7 @@
 * jQuery
 # BBD
 * Enter your name	
-* Enter your Email Address   trevornyagah4@gmail.com	
+* Enter your Email Address   "trevornyagah4@gmail.com"
 * Enter your message or comment  
 * Press Submit		Pop up "Trevor , we have received your message. Thank you for reaching out to us.
 ## Know Bugs

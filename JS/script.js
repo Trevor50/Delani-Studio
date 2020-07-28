@@ -22,7 +22,4 @@ $(document).ready(function () {
      });
    })
  });
-// hover function for portfolio area
-$("figure.portfolio-img").mouseover(function () {
-  $(this).find("hoverable").show();
-});
+ 
