@@ -209,5 +209,40 @@
 }
 }
 h5{
-  color: black
-};
+  color: black;
+}
+
+.column1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.column1 img{
+  width: 80%;
+  padding: 5%;
+}
+.col-two{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.col-two img{
+  width: 80%;
+  padding: 5%;
+}
+
+#job-1-title,#job-2-title,#job-3-title,#job-4-title,#job-5-title,#job-6-title,#job-7-title,#job-8-title{
+display: non;
+    background-color:rgba(44, 36, 36, 0.397);
+    color: white;
+    font-size: 2.6vw;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    margin-left:11.2%;
+    margin-top: -7.9%;
+    width: 16vw;
+    height: 10vw;
+    text-align: center;
+}
