@@ -57,9 +57,9 @@ $('#img5').mouseenter(function () {
 
 
 $('#img6').mouseenter(function () {
-    $('job-6-title').filter('job-6-title').show("slow");
+    $('#job-6-title').filter('#job-6-title').show("slow");
 }).mouseleave(function () {
-    $('job-6-title').hide("slow");
+    $('#job-6-title').hide("slow");
 });
 
 $('#img7').mouseenter(function () {
